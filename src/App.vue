@@ -1,10 +1,16 @@
-<script setup>
-import AppTitle from './components/AppTitle.vue'
-import AppHero from './components/AppHero.vue'
+<script>
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
+export default {
+  components:{
+    AppTitle,
+    AppHero
+  }
+}
 </script>
 
 <template>
-  <AppTitle msg="La mia prima app con Vite" />
+  <AppTitle/>
   <AppHero/>
 </template>

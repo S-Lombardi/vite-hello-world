@@ -1,9 +1,4 @@
-<script setup>
-defineProps({
-  msg: String,
-})
-</script>
 
 <template>
-  <h1 class="text-gradient">{{ msg }}</h1>
+  <h1 class="text-gradient">La mia prima app con Vite</h1>
 </template>
